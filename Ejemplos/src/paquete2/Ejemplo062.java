@@ -7,7 +7,7 @@ package paquete2;
 
 
 import java.util.Scanner;
-
+import java.util.Locale;
 /**
  *
  * @author reroes
