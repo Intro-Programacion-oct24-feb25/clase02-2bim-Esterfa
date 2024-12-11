@@ -17,7 +17,7 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
 
-        // arreglo de tipo entero
+        // arreglo de tipo entero // imprime cinco ceros porque es el valor 
         int[] arreglo1 = new int[5];
         System.out.println(arreglo1[0]);
         System.out.println(arreglo1[1]);
@@ -25,15 +25,15 @@ public class Ejemplo02 {
         System.out.println(arreglo1[3]);
         System.out.println(arreglo1[4]);
         
-        // arreglo de tipo double
+        // arreglo de tipo double // imprime 0.0 porque es double
         double[] arreglo2 = new double[5];
         System.out.println(arreglo2[0]);
         
-        // arreglo de tipo String
+        // arreglo de tipo String // imprime null porque es string una cadena y esta vacia
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
         
-        // arreglo de tipo boleano
+        // arreglo de tipo boleano // imprime false porque es de tipo booleano
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
     }
